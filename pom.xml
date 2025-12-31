@@ -54,7 +54,7 @@
     src/main/jib/usr/lib/libfdb_c.so. We use x86_64 builds without AVX instructions enabled (i.e. FoundationDB versions
     with even-numbered patch versions). Also when updating FoundationDB, make sure to update the version of FoundationDB
     used by GitHub Actions. -->
-    <foundationdb.version>7.3.62</foundationdb.version>
+    <foundationdb.version>7.4.3</foundationdb.version>
     <foundationdb.api-version>730</foundationdb.api-version>
     <foundationdb.client-library-sha256>bfed237b787fae3cde1222676e6bfbb0d218fc27bf9e903397a7a7aa96fb2d33</foundationdb.client-library-sha256>
     <google-cloud-libraries.version>26.67.0</google-cloud-libraries.version>
